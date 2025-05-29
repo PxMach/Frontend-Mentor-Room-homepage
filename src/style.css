@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+:root {
+   --White: hsl(0, 100%, 100%);
+   --Grey_500: hsl(0, 0%, 63%);
+   --Grey_800: hsl(0, 0%, 27%);
+   --Black: hsl(0, 0%, 0%);
+}
+
+* {
+   font-family: "League Spartan", sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   list-style: none;
+}
+
+body {
+   min-height: 100vh;
+}
+
+header {
+   background-image: url("../images/desktop-image-hero-1.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   height: 30rem;
+   display: flex;
+   padding: 3rem;
+   outline: 1px solid black;
+}
+header img {
+   width: 3rem;
+   height: 0.8rem;
+   margin-right: 2rem;
+}
+header nav ul {
+   display: flex;
+   align-items: center;
+}
+nav ul li {
+   color: var(--White);
+   margin-right: 1rem;
+}
+
+/* section 1 */
+
+.grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   min-height: 100vh;
+}
+/* one */
+.one {
+   grid-column: span 2;
+}
+/* two */
+.two {
+   padding: 4rem;
+   position: relative;
+}
+.two h2 {
+   font-size: 2rem;
+   margin-bottom: 1rem;
+}
+.two > p {
+   color: var(--Grey_500);
+   font-weight: 500;
+   margin-bottom: 1rem;
+   line-height: 1.5;
+}
+.shop {
+   display: flex;
+}
+.shop p {
+   color: var(--Black);
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+   margin-right: 1rem;
+   cursor: pointer;
+}
+.shop img {
+   cursor: pointer;
+}
+.buttons {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   background-color: var(--Black);
+   display: flex;
+}
+.buttons button {
+   border: none;
+   height: 2.5rem;
+   width: 2rem;
+   margin: 1rem;
+   cursor: pointer;
+}
+.buttons button img {
+   height: 100%;
+   width: 100%;
+   background-color: var(--Black);
+   cursor: pointer;
+}
+/* three */
+.three img {
+   height: 100%;
+   width: 100%;
+}
+
+/* four */
+.four {
+   padding: 2.5rem;
+}
+.four h3 {
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
+}
+.four p {
+   color: var(--Grey_500);
+   font-weight: 500;
+   margin-bottom: 1rem;
+   line-height: 1.5;
+}
+/* five */
+.five img {
+   height: 100%;
+   width: 100%;
+}
