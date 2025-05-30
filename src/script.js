@@ -21,8 +21,8 @@ const slides = [
             in bringing your vision to life. Create a room in your own style
             with our collection and make your property a reflection of you
             and what you love.`,
-      desktopImage: "../images/desktop-image-hero-1.jpg",
-      mobileImage: "../images/mobile-image-hero-1.jpg",
+      desktopImage: "/images/desktop-image-hero-1.jpg",
+      mobileImage: "/images/mobile-image-hero-1.jpg",
    },
    {
       title: "We are available all across the globe",
@@ -30,8 +30,8 @@ const slides = [
             for your home or place of business. Locally, we're in most major
             cities throughout the country. Find the branch nearest you using our
             store locator. Any questions? Don't hesitate to contact us today.`,
-      desktopImage: "../images/desktop-image-hero-2.jpg",
-      mobileImage: "../images/mobile-image-hero-2.jpg",
+      desktopImage: "/images/desktop-image-hero-2.jpg",
+      mobileImage: "/images/mobile-image-hero-2.jpg",
    },
    {
       title: "Manufactured with the best materials",
@@ -40,8 +40,8 @@ const slides = [
             product is made as perfect and as consistent as possible. With three
             decades of experience in this industry, we understand what customers
             want for their home and office.`,
-      desktopImage: "../images/desktop-image-hero-3.jpg",
-      mobileImage: "../images/mobile-image-hero-3.jpg",
+      desktopImage: "/images/desktop-image-hero-3.jpg",
+      mobileImage: "/images/mobile-image-hero-3.jpg",
    },
 ];
 
