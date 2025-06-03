@@ -5,9 +5,9 @@ const buttonLeft = document.querySelector(".button-left");
 const buttonRight = document.querySelector(".button-right");
 const header = document.querySelector("header");
 
-const nav = document.querySelector("nav");
-const hamburger = document.querySelector(".hamburger");
-const clos = document.querySelector(".clos");
+const topnav_menu = document.querySelector(".topnav_menu");
+const hamburger = document.querySelector(".topnav_open .hamburger");
+const topnav_close = document.querySelector(".topnav_close .btn-close");
 
 let currentSlide = 1;
 let isMobile = window.innerWidth <= 376;
@@ -77,12 +77,12 @@ buttonLeft.addEventListener("click", () => {
 function useNav() {
    // open menu
    hamburger.addEventListener("click", () => {
-      nav.style.display = "flex";
+      topnav_menu.style.display = "flex";
    });
 
    // close menu
-   clos.addEventListener("click", () => {
-      nav.style.display = "none";
+   topnav_close.addEventListener("click", () => {
+      topnav_menu.style.display = "none";
    });
 }
 useNav();
