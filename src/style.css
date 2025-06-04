@@ -86,9 +86,15 @@ button {
 .topnav_link {
    color: var(--Black);
    font-weight: 500;
+   padding: 3px;
+   transition: border-color 0.3s ease;
+   border-bottom: 2px solid transparent;
    @media (width>376px) {
       color: var(--White);
    }
+}
+.topnav_link:hover {
+   border-color: var(--White);
 }
 .one {
    position: relative;
