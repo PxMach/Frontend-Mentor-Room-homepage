@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 :root {
    --White: hsl(0, 100%, 100%);
-   --Grey_500: #595959;
-   --Grey_800: #595959;
+   --Grey_500: hsl(0, 0%, 63%);
+   --Grey_800: hsl(0, 0%, 27%);
    --Black: hsl(0, 0%, 0%);
 }
 
@@ -109,7 +109,7 @@ button {
    margin-bottom: 1rem;
 }
 .two .para {
-   color: var(--Grey_500);
+   color: #595959;
    font-weight: 500;
    margin-bottom: 1.2rem;
    line-height: 1.5;
@@ -171,7 +171,7 @@ button {
    margin-bottom: 1rem;
 }
 .four p {
-   color: var(--Grey_500);
+   color: #595959;
    font-weight: 300;
    margin-bottom: 1rem;
    line-height: 1.5;
